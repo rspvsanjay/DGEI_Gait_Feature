@@ -1,5 +1,5 @@
 path1='H:\Gait_IIT_BHU_Analysis\Silhouette_frames_Selected_big_blob_Extracted_Centered_Alinged_Directed_splitted_Alinged_Directed_Half_Cycle\';
-save_path='H:\Gait_IIT_BHU_Analysis\Refernced_Half_Gait_Cycle\Refernced_Half_Gait_Cycle_19\';
+save_path='H:\Gait_IIT_BHU_Analysis\Refernced_Half_Gait_Cycle\Refernced_Half_Gait_Cycle_13\';
 %save_path1='H:\Neurocomputing_COFEI\Treadmill_dataset\Pose_Directory_for_CNN3\';
 list1 = dir(path1);
 fName1 = {list1.name};
@@ -7,7 +7,7 @@ fName1 = {list1.name};
 path1
 save_path
 pose_frame = cell(0,0);
-length_of_HC = 19;
+length_of_HC = 13;
 for num = 1:length_of_HC
     pose_frame{num} = double(zeros(256,256));
 end
